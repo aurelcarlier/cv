@@ -12,13 +12,13 @@ sidebar:
 
     # Sidebar links
     email: blabla@gmail.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    phone: 01-23-45-67-89
+    timezone:
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
+    website: #do not add http://
+    linkedin: aurélien-carlier-489b6113b
     github: aurelcarlier
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: #url to a hosted pdf 
 
     languages:
       title: Languages
@@ -35,13 +35,10 @@ sidebar:
     interests:
       title: Interests
       info:
+        - item: Mounteneering
+          link:
+
         - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
           link:
 
 career-profile:
@@ -169,7 +166,6 @@ publications:
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
       - name: Python & Django
         level: 98%
