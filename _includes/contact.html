@@ -1,6 +1,12 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
 
+    {% if sidebar.birthday %}
+    <li class="birthday"><i class="fas fa-cake-candles"></i>
+      {{ sidebar.birthday }}
+    </li>
+    {% endif %}
+
     {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>
       <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
