@@ -118,26 +118,34 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
+    title: Publications scientifiques
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Descriptifs publications scientifiques
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: The equivalence of two classical list scheduling algorithms for dependent typed tasks with release dates, due dates and precedence delays
+        link: https://hal.sorbonne-universite.fr/hal-01472060/document
+        authors: Aurélien Carlier, Claire C. Hanen, Alix Munier-Kordon
+        conference: Journal of Scheduling (JOS) - 2017
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Optimal design of a one-way carsharing system including electic vehicles
+        link: https://theses.hal.science/tel-01397234/
+        authors: Aurélien Carlier
+        conference: PhD. thesis - 2016
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Mathematical model for the study of relocation strategies in one-way carsharing systems
+        link: https://hal.inria.fr/hal-01294551/
+        authors: Aurélien Carlier, Alix Munier-Kordon, Witold Klaudel
+        conference: Transportation Research Procedia, vol 10, pages 374–383 - 2015
+
+      - title: Optimization of a one-way carsharing system with relocation operations
+        link: https://hal.inria.fr/hal-01294548/
+        authors: Aurélien Carlier, Alix Munier-Kordon, Witold Klaudel
+        conference: 10th International Conference MOSIM - 2014
+
+      - title: An overview of multimodal transport design and challenges underlined by a carsharing case study
+        link: http://www.csdm2014.csdm.fr/IMG/pdf/An_Overview_of_Multimodal_Transport_Design_and.pdf
+        authors: Aurélien Carlier, Fabien Tschirhart, Frédéric Da Silva, François Stephan, Olivier Thoni, Alix Munier-Kordon, Manel Abid, Lionel Scremin and Ludovic Couturier
+        conference: CSDM, pages 257–268. Springer International Publishing - 2014
 
 education:
     title: Parcours scolaire
@@ -145,8 +153,6 @@ education:
       - degree: Doctorat en informatique et mathématique
         university: UPMC - LIP6 - Paris
         time: 2013 - 2016
-        details: |
-          Titre : Optimal design of a one-way carsharing system including electic vehicles
 
       - degree: Master d'ingéniérie logicielle et aide à la décison
         university: Institut des mathématiques appliquées (IMA) - Angers
