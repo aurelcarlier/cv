@@ -7,7 +7,7 @@ sidebar:
 
     # Profile information
     name: Aurélien Carlier
-    tagline: Developer
+    tagline: Développeur
     avatar: ProfilePicture_100x100.PNG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -21,24 +21,27 @@ sidebar:
     pdf: #url to a hosted pdf 
 
     languages:
-      title: Languages
+      title: Langues
       info:
-        - idiom: French
-          level: Native
+        - idiom: Français
+          level: Langue maternelle
 
-        - idiom: English
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: Anglais
+          level: Professionel
 
     interests:
-      title: Interests
+      title: Centres d'intérêts
       info:
-        - item: Mounteneering
+        - item: Sport (trail running / alpinisme / escalade)
           link:
 
-        - item: Climbing
+        - item: Arts (cinéma / musique / littérature)
+          link:
+
+        - item: Sciences
+          link:
+
+        - item: Voyages
           link:
 
 career-profile:
