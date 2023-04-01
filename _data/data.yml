@@ -48,6 +48,7 @@ career-profile:
     title: Motivations
     summary: |
       Bla
+
 experiences:
     title: Experiences
     info:
@@ -145,21 +146,15 @@ education:
         university: UPMC - LIP6 - Paris
         time: 2013 - 2016
         details: |
-          Details
-            - Bullet point
-            - Bullet point
+          Titre : Optimal design of a one-way carsharing system including electic vehicles
 
       - degree: Master d'ingéniérie logicielle et aide à la décison
         university: Institut des mathématiques appliquées (IMA) - Angers
         time: 2011 - 2013
-        details: |
-          Spécialité mathématiques et informatique appliquées
 
-      - degree: Licence de mathématiques et informatique appliquées aux sciences humaines et sociales
+      - degree: Licence de mathématiques et informatique appliquées
         university: Institut des mathématiques appliquées (IMA) - Angers
         time: 2006 - 2011
-        details: |
-          Parcours mathématiques appliquées et entreprise
           
 skills:
     title: Compétences
