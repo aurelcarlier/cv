@@ -64,6 +64,18 @@ experiences:
           - Jenkins
           - Docker
 
+      - role: Dévelopeur
+        time: mai 2022 - septembre 2022 (5 mois)
+        company: Pharmanity
+        details: |
+          Refonte backend, architecture microservice, CQRS et event sourcing.
+        stack:
+          - Golang
+          - Docker
+          - Kubernetes
+          - gRPC
+          - EventstoreDB
+
 projects:
     title: Projects
     intro: >
