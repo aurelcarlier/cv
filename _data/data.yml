@@ -86,6 +86,15 @@ experiences:
           - WPF
           - AzureDevops
 
+      - role: Dévelopeur
+        time: août 2020 - septembre 2020 (2 mois)
+        company: ATP Machines Spéciales
+        details: |
+          Développement d'un logiciel de conversion de fichiers.
+        stack:
+          - Dotnet / C#
+          - WPF
+
 projects:
     title: Projects
     intro: >
