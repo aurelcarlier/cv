@@ -53,7 +53,7 @@ career-profile:
 experiences:
     title: Expériences
     info:
-      - role: Dévelopeur
+      - role: Développeur
         time: octobre 2022 - Aujourd'hui
         company: Aselta Nanographics - Applied Materials
         details: |
@@ -64,7 +64,7 @@ experiences:
           - Jenkins
           - Docker
 
-      - role: Dévelopeur
+      - role: Développeur
         time: mai 2022 - septembre 2022 (5 mois)
         company: Pharmanity
         details: |
@@ -76,7 +76,7 @@ experiences:
           - gRPC
           - EventstoreDB
 
-      - role: Dévelopeur
+      - role: Développeur
         time: octobre 2020 - avril 2022 (1 an 7 mois)
         company: UnitySC
         details: |
@@ -86,7 +86,7 @@ experiences:
           - WPF
           - AzureDevops
 
-      - role: Dévelopeur
+      - role: Développeur
         time: août 2020 - septembre 2020 (2 mois)
         company: ATP Machines Spéciales
         details: |
