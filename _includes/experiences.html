@@ -29,6 +29,12 @@
     </div><!--//details-->
     {% endif %}
 
+    {% if experience.stack %}
+    <div class="details">
+      Stack : {{ experience.stack | join: " / " }}
+    </div><!--//stack-->
+    {% endif %}
+
   </div><!--//item-->
   {% endfor %}
 
