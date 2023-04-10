@@ -76,6 +76,16 @@ experiences:
           - gRPC
           - EventstoreDB
 
+      - role: Dévelopeur
+        time: octobre 2020 - avril 2022 (1 an 7 mois)
+        company: UnitySC
+        details: |
+          Développement d'interfaces HAL.
+        stack:
+          - Dotnet / C#
+          - WPF
+          - AzureDevops
+
 projects:
     title: Projects
     intro: >
