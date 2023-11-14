@@ -3,173 +3,234 @@
 #
 
 sidebar:
-    education: False # set to False if you want education in main section instead of in sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Aurélien Carlier
-    tagline: Développeur
-    avatar: ProfilePicture_100x100.PNG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Aurélien Carlier
+  tagline: Développeur
+  avatar: ProfilePicture_100x100.PNG #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    birthday: 10-02-1988 (35 ans)
-    email: blabla@gmail.com
-    phone: 01-23-45-67-89
-    timezone:
-    citizenship:
-    website: #do not add http://
-    linkedin: aurélien-carlier-489b6113b
-    github: aurelcarlier
-    pdf: #url to a hosted pdf 
+  # Sidebar links
+  birthday: 10-02-1988 (35 ans)
+  email: blabla@gmail.com
+  phone: 01-23-45-67-89
+  timezone:
+  citizenship:
+  website: #do not add http://
+  linkedin: aurélien-carlier-489b6113b
+  github: aurelcarlier
+  pdf: #url to a hosted pdf
 
-    languages:
-      title: Langues
-      info:
-        - idiom: Français
-          level: Langue maternelle
+  languages:
+    title: Langues
+    info:
+      - idiom: Français
+        level: Langue maternelle
 
-        - idiom: Anglais
-          level: Professionel
+      - idiom: Anglais
+        level: Professionel
 
-    interests:
-      title: Centres d'intérêts
-      info:
-        - item: Sport (trail running / alpinisme / escalade)
-          link:
+  interests:
+    title: Centres d'intérêts
+    info:
+      - item: Sport (trail running / alpinisme / escalade)
+        link:
 
-        - item: Arts (cinéma / musique / littérature)
-          link:
+      - item: Arts (cinéma / musique / littérature)
+        link:
 
-        - item: Sciences
-          link:
+      - item: Sciences
+        link:
 
-        - item: Voyages
-          link:
+      - item: Voyages
+        link:
 
 career-profile:
-    title: Motivations
-    summary: |
-      Bla
+  title: Motivations
+  summary: |
+    Bla bvlo
 
 experiences:
-    title: Expériences
-    info:
-      - role: Développeur
-        time: octobre 2022 - Aujourd'hui
-        company: Aselta Nanographics - Applied Materials
-        details: |
-          Développement de solutions logicielles dans le domaine du semi-conducteur (métrologie et inspection).
-        stack:
-          - Java
-          - Maven
-          - Jenkins
-          - Docker
+  title: Expériences
+  info:
+    - role: Développeur
+      time: Oct 2022 à Aujourd’hui (11 mois)
+      company: Applied Materials
+      details: |
+        Support de l’équipe en place pour aider à la modularisation de la base de code (~1,5M+ de lignes de code), reprendre en main la dette technique (produits logiciels issus de la recherche) et migrer les outils de la forge logicielle dans une nouvelle infrastructure (rachat de Aselta Nanographics par Applied Materials).
+      stack:
+        - Java/Kotlin
+        - Maven
+        - Gitlab
+        - Jenkins
+        - JFrog Artifactory
+        - Docker
 
-      - role: Développeur
-        time: mai 2022 - septembre 2022 (5 mois)
-        company: Pharmanity
-        details: |
-          Refonte backend, architecture microservice, CQRS et event sourcing.
-        stack:
-          - Golang
-          - Docker
-          - Kubernetes
-          - gRPC
-          - EventstoreDB
+    - role: Développeur
+      time: Mai 2022 à Sept 2022 (5 mois)
+      company: Pharmanity
+      details: |
+        Refonte d’une plateforme cloud-native permettant de trouver un médicament près de chez soi sur la base des stocks de centaines de pharmacies partout en France.
+      stack:
+        - Golang
+        - gRPC
+        - architecture CQRS/microservices
+        - Kubernetes
+        - Docker
+        - EventstoreDB
 
-      - role: Développeur
-        time: octobre 2020 - avril 2022 (1 an 7 mois)
-        company: UnitySC
-        details: |
-          Développement d'interfaces HAL.
-        stack:
-          - Dotnet / C#
-          - WPF
-          - AzureDevops
+    - role: Développeur
+      time: Oct 2020 à Avr 2022 (1 an 7 mois)
+      company: UnitySC
+      details: |
+        Développement d'interfaces HAL (hardware abstraction layer) pour une machine d’inspection de semi-conducteurs et développement d’algorithmes d’analyse.
+      stack:
+        - .NET framework
+        - WPF
+        - Azure DevOps
 
-      - role: Développeur
-        time: août 2020 - septembre 2020 (2 mois)
-        company: ATP Machines Spéciales
-        details: |
-          Développement d'un logiciel de conversion de fichiers.
-        stack:
-          - Dotnet / C#
-          - WPF
+    - role: Développeur
+      time: Août 2020 à Sept 2020 (2 mois)
+      company: ATP Machines Spéciales
+      details: |
+        Développement d'une application desktop pour une machine industrielle de découpe de profilés métalliques.
+        Principales fonctionnalités développées : conversion de formats de fichiers (DSTV-NC vers XML) et détection de d’éventuelles non-conformités du profil de découpe.
+      stack:
+        - .NET framework
+        - WPF
+
+    - role: Développeur
+      time: Sept 2019 à Mai 2020 (9 mois)
+      company: ProovStation
+      details: |
+        Application web de visualisation de données issues de détections automatiques de dommages sur la carrosserie de véhicules.
+      stack:
+        - VueJS
+        - .NET core
+        - Gitlab-CI
+        - Docker
+
+    - role: Développeur
+      time: Oct 2018 - Juillet 2019 (10 mois)
+      company: Ubstream (BeeBuzziness)
+      details: |
+        Application microservices de virtualisation et diffusion de média (images, vidéos, liens, etc.).
+        Refonte et optimisation de l’architecture du backend pour le stockage des données.
+      stack:
+        - Node.js (TypeScript)
+        - Docker
+        - Ansible
+        - Jenkins
+
+    - role: Développeur
+      time: Juillet 2018 à Sept 2018 (3 mois)
+      company: Banque Populaire AURA
+      details: |
+        Développement d’une application de gestion des portefeuilles clients des conseillers pour l’ensemble des agences Auvergne Rhône Alpes.
+        Application critique dans le fonctionnement général de la banque.
+      stack:
+        - Ruby on Rails
+        - React
+        - Docker
+
+    - role: Développeur
+      time: Avril 2018 à Juin 2018 (3 mois)
+      company: Easybike
+      details: |
+        Développement d’une application microservices de visualisation de données d’exploitation d’un parc d’armoires connectées servant de lieu d’échange de batteries de vélos électriques.
+        L’analyse de ces données permet d’optimiser le système dans sa globalité (localisation et dimensionnement).
+      stack:
+        - Node.js
+        - Docker
+        - Grafana
+
+    - role: Développeur
+      time: Mars 2018 à Juin 2018 (4 mois)
+      company: ArkeaWeb
+      details: |
+        Développement d’une application permettant l’archivage de documents papiers, leur référencement et leur recherche de façon intuitive.
+        Cette application est utilisée dans de nombreuses mairies.
+      stack:
+        - Ruby on Rails
+        - React - Redux
+        - AWS
+        - Docker
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: Projects
+  intro: >
+    You can list your side projects in this
+    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  assignments:
+    - title: Velocity
+      link: "#hook"
+      tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
 publications:
-    title: Publications scientifiques
-    intro: |
-      Descriptifs publications scientifiques
-    papers:
-      - title: The equivalence of two classical list scheduling algorithms for dependent typed tasks with release dates, due dates and precedence delays
-        link: https://hal.sorbonne-universite.fr/hal-01472060/document
-        authors: Aurélien Carlier, Claire C. Hanen, Alix Munier-Kordon
-        conference: Journal of Scheduling (JOS) - 2017
+  title: Publications scientifiques
+  intro: |
+    Descriptifs publications scientifiques
+  papers:
+    - title: The equivalence of two classical list scheduling algorithms for dependent typed tasks with release dates, due dates and precedence delays
+      link: https://hal.sorbonne-universite.fr/hal-01472060/document
+      authors: Aurélien Carlier, Claire C. Hanen, Alix Munier-Kordon
+      conference: Journal of Scheduling (JOS) - 2017
 
-      - title: Optimal design of a one-way carsharing system including electic vehicles
-        link: https://theses.hal.science/tel-01397234/
-        authors: Aurélien Carlier
-        conference: PhD. thesis - 2016
+    - title: Optimal design of a one-way carsharing system including electic vehicles
+      link: https://theses.hal.science/tel-01397234/
+      authors: Aurélien Carlier
+      conference: PhD. thesis - 2016
 
-      - title: Mathematical model for the study of relocation strategies in one-way carsharing systems
-        link: https://hal.inria.fr/hal-01294551/
-        authors: Aurélien Carlier, Alix Munier-Kordon, Witold Klaudel
-        conference: Transportation Research Procedia, vol 10, pages 374–383 - 2015
+    - title: Mathematical model for the study of relocation strategies in one-way carsharing systems
+      link: https://hal.inria.fr/hal-01294551/
+      authors: Aurélien Carlier, Alix Munier-Kordon, Witold Klaudel
+      conference: Transportation Research Procedia, vol 10, pages 374–383 - 2015
 
-      - title: Optimization of a one-way carsharing system with relocation operations
-        link: https://hal.inria.fr/hal-01294548/
-        authors: Aurélien Carlier, Alix Munier-Kordon, Witold Klaudel
-        conference: 10th International Conference MOSIM - 2014
+    - title: Optimization of a one-way carsharing system with relocation operations
+      link: https://hal.inria.fr/hal-01294548/
+      authors: Aurélien Carlier, Alix Munier-Kordon, Witold Klaudel
+      conference: 10th International Conference MOSIM - 2014
 
-      - title: An overview of multimodal transport design and challenges underlined by a carsharing case study
-        link: http://www.csdm2014.csdm.fr/IMG/pdf/An_Overview_of_Multimodal_Transport_Design_and.pdf
-        authors: Aurélien Carlier, Fabien Tschirhart, Frédéric Da Silva, François Stephan, Olivier Thoni, Alix Munier-Kordon, Manel Abid, Lionel Scremin and Ludovic Couturier
-        conference: CSDM, pages 257–268. Springer International Publishing - 2014
+    - title: An overview of multimodal transport design and challenges underlined by a carsharing case study
+      link: http://www.csdm2014.csdm.fr/IMG/pdf/An_Overview_of_Multimodal_Transport_Design_and.pdf
+      authors: Aurélien Carlier, Fabien Tschirhart, Frédéric Da Silva, François Stephan, Olivier Thoni, Alix Munier-Kordon, Manel Abid, Lionel Scremin and Ludovic Couturier
+      conference: CSDM, pages 257–268. Springer International Publishing - 2014
 
 education:
-    title: Parcours scolaire
-    info:
-      - degree: Doctorat en informatique et mathématique
-        university: UPMC - LIP6 - Paris
-        time: 2013 - 2016
+  title: Parcours universitaire
+  info:
+    - degree: Doctorat en informatique et mathématique
+      university: UPMC - LIP6 - Paris
+      time: 2013 - 2016
 
-      - degree: Master d'ingéniérie logicielle et aide à la décison
-        university: Institut des mathématiques appliquées (IMA) - Angers
-        time: 2011 - 2013
+    - degree: Master d'ingéniérie logicielle et aide à la décison
+      university: Institut des mathématiques appliquées (IMA) - Angers
+      time: 2011 - 2013
 
-      - degree: Licence de mathématiques et informatique appliquées
-        university: Institut des mathématiques appliquées (IMA) - Angers
-        time: 2006 - 2011
-          
+    - degree: Licence de mathématiques et informatique appliquées
+      university: Institut des mathématiques appliquées (IMA) - Angers
+      time: 2006 - 2011
+
 skills:
-    title: Compétences
-    toolset:
-      - name: Python & Django
-        level: 98%
+  title: Compétences
+  toolset:
+    - name: Python & Django
+      level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: Javascript & jQuery
+      level: 98%
 
-      - name: Angular
-        level: 98%
+    - name: Angular
+      level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: HTML5 & CSS
+      level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: Ruby on Rails
+      level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: Sketch & Photoshop
+      level: 60%
 
 footer: a footer
