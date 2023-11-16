@@ -54,7 +54,7 @@ career-profile:
     Bla bvlo
 
 experiences:
-  title: Expériences
+  title: Expériences dans le développement logiciel
   info:
     - role: Développeur
       time: Oct 2022 à Aujourd’hui (11 mois)
@@ -203,7 +203,7 @@ publications:
 education:
   title: Parcours universitaire
   info:
-    - degree: Doctorat en informatique et mathématique
+    - degree: Doctorat en informatique et mathématiques
       university: UPMC - LIP6 - Paris
       time: 2013 - 2016
 
