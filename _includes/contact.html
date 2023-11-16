@@ -3,7 +3,7 @@
 
     {% if sidebar.birthday %}
     <li class="birthday">
-      <i class="fas fa-pull-left fa-birthday-cake"></i>10 février 1988 ({{ site.time | date: "%Y" | minus: 1988 }} ans)
+      <i class="fas fa-pull-left fa-birthday-cake"></i>{{ sidebar.birthday.day }} {{ sidebar.birthday.month }} {{ sidebar.birthday.year }} ({{ site.time | date: "%Y" | minus: sidebar.birthday.year }} ans)
     </li>
     {% endif %}
 

@@ -11,7 +11,10 @@ sidebar:
   avatar: ProfilePicture_100x100.PNG #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  birthday: 10-02-1988 (35 ans)
+  birthday:
+    day: 10
+    month: février
+    year: 1988
   email: blabla@gmail.com
   phone: 01-23-45-67-89
   timezone:
