@@ -173,7 +173,10 @@ projects:
 publications:
   title: Publications scientifiques
   intro: |
-    Descriptifs publications scientifiques
+    Avant d'entammer une reconversion vers le développement logiciel, j'ai débuté ma vie active dans la recherche en informatique.
+    Spécialisé en Recherche Opérationnelle et Aide à la Décision (RO/AD), je me suis principalement intéressé à l’optimisation des systèmes de transport, l’essor des nouvelles mobilités et la logistique urbaine.
+    Voici ci-dessous mes publications scientifiques.
+
   papers:
     - title: The equivalence of two classical list scheduling algorithms for dependent typed tasks with release dates, due dates and precedence delays
       link: https://hal.sorbonne-universite.fr/hal-01472060/document
