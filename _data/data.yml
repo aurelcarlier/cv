@@ -163,22 +163,24 @@ experiences:
         - Docker
 
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this
-    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  title: Autres expériences & Soft skills
+  # intro: >
+  #   intro
   assignments:
-    - title: Velocity
-      link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - title: Formation - Git / TDD
+      tagline: Introduction et pratique avancée
+    - title: Recrutement
+      tagline: Entretiens techniques
+    - title: Avant-vente et recueil du besoin
+      tagline: Chiffrage et dimensionnement de projets
+    - title: Collaborations internationnalles
+      tagline: Échanges récurants avec d'autres équipes du monde entier (Israël, Canada, Inde, etc.)
 
 publications:
   title: Publications scientifiques
   intro: |
     Avant d'entammer une reconversion vers le développement logiciel, j'ai débuté ma vie active dans la recherche en informatique.
     Spécialisé en Recherche Opérationnelle et Aide à la Décision (RO/AD), je me suis principalement intéressé à l’optimisation des systèmes de transport, l’essor des nouvelles mobilités et la logistique urbaine.
-    Voici ci-dessous mes publications scientifiques.
 
   papers:
     - title: The equivalence of two classical list scheduling algorithms for dependent typed tasks with release dates, due dates and precedence delays
