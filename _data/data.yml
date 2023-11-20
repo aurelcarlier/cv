@@ -177,6 +177,34 @@ projects:
     - title: Collaborations internationnalles
       tagline: Échanges récurants avec d'autres équipes du monde entier (Israël, Canada, Inde, etc.)
 
+stack:
+  title: Stack technologique
+
+  languages:
+    title: Langages
+    list:
+      - name: Java / Kotlin
+        logo: fa-java
+      - name: Python
+        logo: fa-python
+
+  tools:
+    title: Outils
+    list:
+      - name: Git
+        logo: fa-git-alt
+      - name: Docker
+        logo: fa-docker
+
+  frameworks:
+    title: Frameworks
+    list:
+      - name: VueJS
+        logo: fa-vuejs
+      - name: React / Redux
+        logo: fa-react
+
+
 publications:
   title: Publications scientifiques
   intro: |

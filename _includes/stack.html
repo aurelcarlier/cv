@@ -1,0 +1,57 @@
+{% assign stack = site.data.data.stack %}
+{% if stack %}
+<section class="section stack-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-screwdriver-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ stack.title }}
+  </h2>
+
+  {% if stack.languages %}
+  <div class="">
+    {{ stack.languages.title }}
+  </div>
+  {% for langage in stack.languages.list %}
+  <div class="item">
+    <span class="fa-stack">
+      <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+      <i class="fab {{ langage.logo }} fa-stack-2x "></i>
+    </span>{{ langage.name }}
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if stack.tools %}
+  <div class="">
+    {{ stack.tools.title }}
+  </div>
+  {% for tool in stack.tools.list %}
+  <div class="item">
+    <span class="fa-stack">
+      <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+      <i class="fab {{ tool.logo }} fa-stack-2x "></i>
+    </span>{{ tool.name }}
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if stack.frameworks %}
+  <div class="">
+    {{ stack.frameworks.title }}
+  </div>
+  {% for framework in stack.frameworks.list %}
+  <div class="item">
+    <span class="fa-stack">
+      <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+      <i class="fab {{ framework.logo }} fa-stack-2x "></i>
+    </span>{{ framework.name }}
+  </div>
+  {% endfor %}
+  {% endif %}
+
+
+</section><!--//section-->
+{% endif %}
