@@ -42,7 +42,7 @@ sidebar:
       - item: Arts (cinéma / musique / littérature)
         link:
 
-      - item: Sciences
+      - item: Sciences (mathématiques / physique)
         link:
 
       - item: Voyages
@@ -67,6 +67,7 @@ experiences:
       stack:
         - Java/Kotlin
         - Maven
+        - Python
         - Gitlab
         - Jenkins
         - JFrog Artifactory
