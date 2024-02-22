@@ -36,7 +36,7 @@ sidebar:
   interests:
     title: Centres d'intérêts
     info:
-      - item: Sport (trail running / alpinisme / escalade)
+      - item: Sport (running / alpinisme / escalade)
         link:
 
       - item: Arts (cinéma / musique / littérature)
@@ -51,24 +51,25 @@ sidebar:
 career-profile:
   title: Motivations
   summary: |
-    Reconverti depuis plus de 6 ans dans le développement logiciel à part entière, je suis aujourd'hui en quête de nouveaux défis technologiques.
-    En fervent défenseur de l'artisanat logiciel, j'accorde une importance cruciale à la qualité du code, de sa conception à sa maintenabilité.
+    Reconverti depuis plus de 6 ans dans le développement logiciel, je suis aujourd'hui en quête de nouveaux défis technologiques.
+    En fervent défenseur de l'artisanat logiciel, j'accorde une grande importance à la qualité du code et à sa maintenabilité.
     J'ai un intérêt prononcé pour les pratiques DevOps et leurs rôles transversaux, aussi bien d'un point de vue technique qu'organisationnel.
-    Fort de mon parcours peu conventionnel, je souhaite pouvoir faire valoir mon expérience au service de ma passion.
+    Fort de mon parcours peu conventionnel, je souhaite faire valoir mon expérience au service de ma passion.
 
 experiences:
   title: Expériences dans le développement logiciel
+  intro: Salarié depuis 2017 chez Sogilis, une petite ESN du bassin Grenoblois, j'ai eu l'occasion d'étendre et d'approfondir mes compétences liées au développement à travers les diverses missions listées ci-dessous.
   info:
     - role: Développeur
-      time: Oct 2022 à Aujourd’hui (11 mois)
+      time: Oct 2022 à Aujourd’hui (1 an et 6 mois)
       company: Applied Materials
       details: |
         Support de l’équipe en place pour aider à la modularisation de la base de code (~1,5M+ de lignes de code), reprendre en main la dette technique (produits logiciels issus de la recherche) et migrer les outils de la forge logicielle dans une nouvelle infrastructure (rachat de Aselta Nanographics par Applied Materials).
       stack:
-        - Java/Kotlin
+        - Java & Kotlin
         - Maven
         - Python
-        - Gitlab
+        - Gitlab & Gitlab-CI
         - Jenkins
         - JFrog Artifactory
         - Docker
@@ -87,10 +88,10 @@ experiences:
         - EventstoreDB
 
     - role: Développeur
-      time: Oct 2020 à Avr 2022 (1 an 7 mois)
+      time: Oct 2020 à Avr 2022 (1 an et 7 mois)
       company: UnitySC
       details: |
-        Développement d'interfaces HAL (hardware abstraction layer) pour une machine d’inspection de semi-conducteurs et développement d’algorithmes d’analyse.
+        Développement d'interfaces HAL (hardware abstraction layer) pour une machine d’inspection et de métrologie dans l'industrie du semi-conducteurs et développement d’algorithmes d’analyse.
       stack:
         - .NET framework
         - WPF
@@ -101,7 +102,7 @@ experiences:
       company: ATP Machines Spéciales
       details: |
         Développement d'une application desktop pour une machine industrielle de découpe de profilés métalliques.
-        Principales fonctionnalités développées : conversion de formats de fichiers (DSTV-NC vers XML) et détection de d’éventuelles non-conformités du profil de découpe.
+        Principales fonctionnalités développées : conversion de formats de fichiers (DSTV-NC vers XML) et détection d’éventuelles non-conformités du profil de découpe.
       stack:
         - .NET framework
         - WPF
@@ -110,7 +111,7 @@ experiences:
       time: Sept 2019 à Mai 2020 (9 mois)
       company: ProovStation
       details: |
-        Application web de visualisation de données issues de détections automatiques de dommages sur la carrosserie de véhicules.
+        Application web de visualisation de données issues de détections automatiques de défauts et/ou dommages visibles sur la carrosserie de véhicules.
       stack:
         - VueJS
         - .NET core
@@ -122,7 +123,7 @@ experiences:
       company: Ubstream (BeeBuzziness)
       details: |
         Application microservices de virtualisation et diffusion de média (images, vidéos, liens, etc.).
-        Refonte et optimisation de l’architecture du backend pour le stockage des données.
+        Refonte et optimisation de l’architecture backend pour le stockage des données.
       stack:
         - Node.js (TypeScript)
         - Docker
@@ -168,16 +169,18 @@ projects:
   # intro: >
   #   intro
   assignments:
-    - title: Formation - Git / TDD
-      tagline: Introduction et pratique avancée
+    - title: Formation
+      tagline: Git & TDD - Introduction et pratique avancée
     - title: Recrutement
-      tagline: Entretiens techniques
+      tagline: Entretiens et qualifications techniques
     - title: Avant-vente et recueil du besoin
       tagline: Chiffrage et dimensionnement de projets
+    - title: Communication
+      tagline: Tournage de vidéos promotionnelles
     - title: Collaborations internationnalles
       tagline: Échanges récurants avec d'autres équipes du monde entier (Israël, Canada, Inde, etc.)
 
-stack:
+~stack:
   title: Stack technologique
 
   languages:
@@ -208,7 +211,7 @@ stack:
 publications:
   title: Publications scientifiques
   intro: |
-    Avant d'entammer une reconversion vers le développement logiciel, j'ai débuté ma vie active dans la recherche en informatique.
+    Avant d'entammer une reconversion vers le développement logiciel, j'ai débuté ma vie professionnelle dans la recherche en informatique.
     Spécialisé en Recherche Opérationnelle et Aide à la Décision (RO/AD), je me suis principalement intéressé à l’optimisation des systèmes de transport, l’essor des nouvelles mobilités et la logistique urbaine.
 
   papers:
@@ -252,7 +255,7 @@ education:
       university: Institut des mathématiques appliquées (IMA) - Angers
       time: 2006 - 2011
 
-skills:
+~skills:
   title: Compétences
   toolset:
     - name: Python & Django
@@ -273,4 +276,4 @@ skills:
     - name: Sketch & Photoshop
       level: 60%
 
-footer: a footer
+~footer: a footer
