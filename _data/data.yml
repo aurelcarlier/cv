@@ -7,13 +7,13 @@ sidebar:
 
   # Profile information
   name: Aurélien Carlier
-  tagline: Développeur
+  tagline: Developer
   avatar: ProfilePicture_100x100.PNG #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   birthday:
     day: 10
-    month: février
+    month: february
     year: 1988
   email: aureliencarlier123@gmail.com
   phone: +33 (0)6-38-83-42-03
@@ -25,46 +25,46 @@ sidebar:
   pdf: #url to a hosted pdf
 
   languages:
-    title: Langues
+    title: Languages
     info:
-      - idiom: Français
-        level: Langue maternelle
+      - idiom: French
+        level: Mother tongue
 
-      - idiom: Anglais
-        level: Professionel
+      - idiom: English
+        level: Professionnal
 
   interests:
-    title: Centres d'intérêts
+    title: Interests
     info:
-      - item: Sport (running / alpinisme / escalade)
+      - item: Sport (running / mountaineering / rock climbing)
         link:
 
-      - item: Arts (cinéma / musique / littérature)
+      - item: Arts (cinema / music / literature)
         link:
 
-      - item: Sciences (mathématiques / physique)
+      - item: Sciences (mathematics / physics)
         link:
 
-      - item: Voyages
+      - item: Travels
         link:
 
 career-profile:
   title: Motivations
   summary: |
-    Reconverti depuis plus de 6 ans dans le développement logiciel, je suis aujourd'hui en quête de nouveaux défis technologiques.
-    En fervent défenseur de l'artisanat logiciel, j'accorde une grande importance à la qualité du code et à sa maintenabilité.
-    J'ai un intérêt prononcé pour les pratiques DevOps et leurs rôles transversaux, aussi bien d'un point de vue technique qu'organisationnel.
-    Fort de mon parcours peu conventionnel, je souhaite faire valoir mon expérience au service de ma passion.
+    Having spent over six years in software development, I'm now looking for new technological challenges.
+    As a fervent advocate of software craftsmanship, I attach great importance to code quality and code maintainability.
+    I have a keen interest in DevOps practices and their cross-functional roles, both from a technical and organizational point of view.
+    With my unconventional background, I'd like to put my experience to good use in the service of my passion.
 
 experiences:
-  title: Expériences dans le développement logiciel
-  intro: Salarié depuis 2017 chez Sogilis, une petite ESN du bassin Grenoblois, j'ai eu l'occasion d'étendre et d'approfondir mes compétences liées au développement à travers les diverses missions listées ci-dessous.
+  title: Experience in software development
+  intro: Employed since 2017 at Sogilis, a small ESN in the Grenoble area, I've had the opportunity to extend and deepen my development-related skills through the various missions listed below.
   info:
-    - role: Développeur
-      time: Oct 2022 à Aujourd’hui (1 an et 6 mois)
+    - role: Developer
+      time: Oct 2022 to present (1 year and 6 months)
       company: Applied Materials
       details: |
-        Support de l’équipe en place pour aider à la modularisation de la base de code (~1,5M+ de lignes de code), reprendre en main la dette technique (produits logiciels issus de la recherche) et migrer les outils de la forge logicielle dans une nouvelle infrastructure (rachat de Aselta Nanographics par Applied Materials).
+        Support the existing team to modularize the code base (~1.5M+ lines of code), take charge of the technical debt (software products resulting from research) and migrate the software forge tools to a new infrastructure (Aselta Nanographics was acquired by Applied Materials).
       stack:
         - Java & Kotlin
         - Maven
@@ -74,11 +74,11 @@ experiences:
         - JFrog Artifactory
         - Docker
 
-    - role: Développeur
-      time: Mai 2022 à Sept 2022 (5 mois)
+    - role: Developer
+      time: May 2022 to Sept 2022 (5 months)
       company: Pharmanity
       details: |
-        Refonte d’une plateforme cloud-native permettant de trouver un médicament près de chez soi sur la base des stocks de centaines de pharmacies partout en France.
+        Redesign of a cloud-native platform that helps to find a drug near you, based on the stocks of hundreds of pharmacies throughout France.
       stack:
         - Golang
         - gRPC
@@ -87,77 +87,77 @@ experiences:
         - Docker
         - EventstoreDB
 
-    - role: Développeur
-      time: Oct 2020 à Avr 2022 (1 an et 7 mois)
+    - role: Developer
+      time: Oct 2020 to Avr 2022 (1 year and 7 months)
       company: UnitySC
       details: |
-        Développement d'interfaces HAL (hardware abstraction layer) pour une machine d’inspection et de métrologie dans l'industrie du semi-conducteurs et développement d’algorithmes d’analyse.
+        Development of HAL (hardware abstraction layer) interfaces for an inspection and metrology machine in the semiconductor industry, and development of analysis algorithms.
       stack:
         - .NET framework
         - WPF
         - Azure DevOps
 
-    - role: Développeur
-      time: Août 2020 à Sept 2020 (2 mois)
+    - role: Developer
+      time: Aug 2020 to Sept 2020 (2 months)
       company: ATP Machines Spéciales
       details: |
-        Développement d'une application desktop pour une machine industrielle de découpe de profilés métalliques.
-        Principales fonctionnalités développées : conversion de formats de fichiers (DSTV-NC vers XML) et détection d’éventuelles non-conformités du profil de découpe.
+        Development of a desktop application for an industrial metal profile cutting machine.
+        The main features developed concerned the conversion of file formats (DSTV-NC to XML) and the detection of non-conformities in the cutting profile.
       stack:
         - .NET framework
         - WPF
 
-    - role: Développeur
-      time: Sept 2019 à Mai 2020 (9 mois)
+    - role: Developer
+      time: Sept 2019 to May 2020 (9 months)
       company: ProovStation
       details: |
-        Application web de visualisation de données issues de détections automatiques de défauts et/ou dommages visibles sur la carrosserie de véhicules.
+        Web application for visualizing data from automatic detection of visible defects and/or damage to vehicle bodywork.
       stack:
         - VueJS
         - .NET core
         - Gitlab-CI
         - Docker
 
-    - role: Développeur
-      time: Oct 2018 - Juillet 2019 (10 mois)
+    - role: Developer
+      time: Oct 2018 to Jul 2019 (10 months)
       company: Ubstream (BeeBuzziness)
       details: |
-        Application microservices de virtualisation et diffusion de média (images, vidéos, liens, etc.).
-        Refonte et optimisation de l’architecture backend pour le stockage des données.
+        Microservices application for virtualization and media distribution (images, videos, links, etc.).
+        Backend architecture redesign and optimization for data storage.
       stack:
         - Node.js (TypeScript)
         - Docker
         - Ansible
         - Jenkins
 
-    - role: Développeur
-      time: Juillet 2018 à Sept 2018 (3 mois)
+    - role: Developer
+      time: Jul 2018 to Sept 2018 (3 months)
       company: Banque Populaire AURA
       details: |
-        Développement d’une application de gestion des portefeuilles clients des conseillers pour l’ensemble des agences Auvergne Rhône Alpes.
-        Application critique dans le fonctionnement général de la banque.
+        Development of a customer portfolio management application for all Auvergne Rhône Alpes branches.
+        Critical application in the bank's general operations.
       stack:
         - Ruby on Rails
         - React
         - Docker
 
-    - role: Développeur
-      time: Avril 2018 à Juin 2018 (3 mois)
+    - role: Developer
+      time: April 2018 to June 2018 (3 months)
       company: Easybike
       details: |
-        Développement d’une application microservices de visualisation de données d’exploitation d’un parc d’armoires connectées servant de lieu d’échange de batteries de vélos électriques.
-        L’analyse de ces données permet d’optimiser le système dans sa globalité (localisation et dimensionnement).
+        Development of a microservices application to visualize connected cabinets operating data used to exchange electric bicycle batteries.
+        Analysis of this data is used to optimize the overall system (location and sizing).
       stack:
         - Node.js
         - Docker
         - Grafana
 
-    - role: Développeur
-      time: Mars 2018 à Juin 2018 (4 mois)
+    - role: Developer
+      time: Mars 2018 to June 2018 (4 months)
       company: ArkeaWeb
       details: |
-        Développement d’une application permettant l’archivage de documents papiers, leur référencement et leur recherche de façon intuitive.
-        Cette application est utilisée dans de nombreuses mairies.
+        Development of an application that enables paper documents to be archived, referenced and searched intuitively.
+        This application is used in many french town halls.
       stack:
         - Ruby on Rails
         - React - Redux
@@ -165,20 +165,20 @@ experiences:
         - Docker
 
 projects:
-  title: Autres expériences & Soft skills
+  title: Other experiences & Soft skills
   # intro: >
   #   intro
   assignments:
-    - title: Formation
-      tagline: Git & TDD - Introduction et pratique avancée
-    - title: Recrutement
-      tagline: Entretiens et qualifications techniques
-    - title: Avant-vente et recueil du besoin
-      tagline: Chiffrage et dimensionnement de projets
+    - title: Training
+      tagline: Git & TDD - Introduction and advanced practice
+    - title: Recruitment
+      tagline: Interviews and technical qualifications
+    - title: Pre-sales and needs assessment
+      tagline: Project costing and sizing estimations
     - title: Communication
-      tagline: Tournage de vidéos promotionnelles
-    - title: Collaborations internationnalles
-      tagline: Échanges récurants avec d'autres équipes du monde entier (Israël, Canada, Inde, etc.)
+      tagline: Shooting promotional videos
+    - title: International collaborations
+      tagline: Regular exchanges with other teams around the world (Israel, Canada, India, etc.).
 
 ~stack:
   title: Stack technologique
@@ -209,11 +209,10 @@ projects:
 
 
 publications:
-  title: Publications scientifiques
+  title: Scientific publications
   intro: |
-    Avant d'entammer une reconversion vers le développement logiciel, j'ai débuté ma vie professionnelle dans la recherche en informatique.
-    Spécialisé en Recherche Opérationnelle et Aide à la Décision (RO/AD), je me suis principalement intéressé à l’optimisation des systèmes de transport, l’essor des nouvelles mobilités et la logistique urbaine.
-
+    Before switching to software development, I began my professional life in IT research.
+    Specializing in Operational Research and Decision Support, I was mainly interested in the optimization of transport systems, the development of new forms of mobility and urban logistics.
   papers:
     - title: The equivalence of two classical list scheduling algorithms for dependent typed tasks with release dates, due dates and precedence delays
       link: https://hal.sorbonne-universite.fr/hal-01472060/document
@@ -241,18 +240,18 @@ publications:
       conference: CSDM, pages 257–268. Springer International Publishing - 2014
 
 education:
-  title: Parcours universitaire
+  title: Education
   info:
-    - degree: Doctorat en informatique et mathématiques
+    - degree: Ph.D. in computer science and mathematics
       university: UPMC - LIP6 - Paris
       time: 2013 - 2016
 
-    - degree: Master d'ingéniérie logicielle et aide à la décison
-      university: Institut des mathématiques appliquées (IMA) - Angers
+    - degree: Master of Software Engineering and Decision Support
+      university: Institut des mathématiques appliquées (IMA) - Angers - France
       time: 2011 - 2013
 
-    - degree: Licence de mathématiques et informatique appliquées
-      university: Institut des mathématiques appliquées (IMA) - Angers
+    - degree: Bachelor's degree in applied mathematics and computer science
+      university: Institut des mathématiques appliquées (IMA) - Angers - France
       time: 2006 - 2011
 
 ~skills:
